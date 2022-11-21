@@ -92,7 +92,7 @@ export default class Card extends Component {
     self.classList.add("card");
     self.classList.add("hide");
     textFullNameSpan.textContent = `${this.fullName}`;
-    textFullNameSpan.setAttribute("data-name", "fulName");
+    textFullNameSpan.setAttribute("data-name", "fullName");
     textFullName.textContent = "П.І.Б: ";
     textFullName.append(textFullNameSpan);
     textDoctor.textContent = `Лікар: ${this.doctor}`;
